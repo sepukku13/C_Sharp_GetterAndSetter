@@ -1,15 +1,16 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace C_Sharp_GetterAndSetter
+namespace GetterAndSetter
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
+            Movie avengers = new Movie("The Avangers", "Joss Whedon", "G");
+            //avengers.Rating = "G";
+            Console.WriteLine(avengers.Rating);
+            Console.ReadKey();
         }
     }
+    
 }
