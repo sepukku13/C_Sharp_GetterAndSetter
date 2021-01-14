@@ -6,9 +6,12 @@ namespace GetterAndSetter
     {
         static void Main()
         {
-            Movie avengers = new Movie("The Avangers", "Joss Whedon", "G");
+            Movie avengers = new Movie("Rocky", "Joss Whedon", "G");
             //avengers.Rating = "G";
-            Console.WriteLine(avengers.Rating);
+
+            
+            Console.WriteLine("Rating = {0}",avengers.Rating);
+            Console.WriteLine("Title = {0}", avengers.Title);
             Console.ReadKey();
         }
     }

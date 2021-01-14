@@ -1,20 +1,18 @@
 ﻿using System;
 
-
 class Movie
 {
     //Variable
     private string rating;
+    private string title;
 
     //Eigenschaft
-    public string Title { get; set; }
     public string Director { get; set; }
         
     public string Rating
     {
         get
         {
-            Console.WriteLine("public string Rating - get: {0}", rating);
             return rating;
         }
         set
@@ -23,6 +21,20 @@ class Movie
                 rating = value;
             else
                 rating = "Nicht Vorhanden";
+        }
+    }
+    public string Title
+    {
+        get
+        {
+            return title;
+        }
+        set
+        {
+            if (value != "Rocky")
+                title = "Nicht aktzeptable";
+            else
+                title = value;
         }
     }
     //Konstruktor
