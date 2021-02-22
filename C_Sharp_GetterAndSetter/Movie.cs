@@ -20,7 +20,7 @@ class Movie
             if (value == "G" || value == "PG" || value == "PG-13")
                 rating = value;
             else
-                rating = "Nicht Vorhanden";
+                rating = "Nicht Vorhanden!";
         }
     }
     public string Title
