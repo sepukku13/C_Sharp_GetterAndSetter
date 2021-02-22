@@ -8,8 +8,7 @@ namespace GetterAndSetter
         {
             Movie avengers = new Movie("Rocky", "Joss Whedon", "G");
             //avengers.Rating = "G";
-
-            
+                        
             Console.WriteLine("Rating = {0}",avengers.Rating);
             Console.WriteLine("Title = {0}", avengers.Title);
 
