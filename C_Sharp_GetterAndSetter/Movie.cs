@@ -38,7 +38,7 @@ class Movie
         }
     }
     //Konstruktor
-    public Movie(string _title, string _director, string _rating)
+    public Movie (string _title, string _director, string _rating)
     {
         Title = _title;
         Director = _director;

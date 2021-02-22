@@ -12,6 +12,11 @@ namespace GetterAndSetter
             
             Console.WriteLine("Rating = {0}",avengers.Rating);
             Console.WriteLine("Title = {0}", avengers.Title);
+
+            Console.Write("Title eineben: ");
+            avengers.Title = Console.ReadLine();
+            Console.WriteLine("Title = {0}", avengers.Title);
+
             Console.ReadKey();
         }
     }
