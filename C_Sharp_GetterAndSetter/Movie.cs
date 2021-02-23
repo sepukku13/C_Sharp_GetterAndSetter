@@ -32,16 +32,16 @@ class Movie
         set
         {
             if (value != "Rocky")
-                title = "Nicht aktzeptable!";
+                title = "Nicht aktzeptabel!";
             else
                 title = value;
         }
     }
     //Konstruktor
-    public Movie (string _title, string _director, string _rating)
+    public Movie (string aTitle, string aDirector, string aRating)
     {
-        Title = _title;
-        Director = _director;
-        Rating = _rating;
+        Title = aTitle;
+        Director = aDirector;
+        Rating = aRating;
     }
 }
